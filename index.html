@@ -2,39 +2,38 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>RagdollSwordBattle</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>RagdollSwordBattle</title>
 
-  <script type="text/javascript" >
-    window.yandexMetricaCounterId = parseInt(93893276);
-  </script>
+    <script type="text/javascript">window.yandexMetricaCounterId = parseInt(93893276);</script>
 
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript" >
-    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-    m[i].l=1*new Date();
-    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+    <script>vkBridge.send("VKWebAppInit');</script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">(function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
     ym(window.yandexMetricaCounterId, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true
-    });
-  </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/93893276" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true
+    });</script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/93893276" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 
-  <script type="text/javascript" >
-    ym(window.yandexMetricaCounterId,'reachGoal','pageOpen');
+    <script type="text/javascript">ym(window.yandexMetricaCounterId, 'reachGoal', 'pageOpen');
 
-    addEventListener('DOMContentLoaded', (event) => {
-      const pageLoadTime = performance.timing.domContentLoadedEventStart - performance.timing.navigationStart;
-      ym(window.yandexMetricaCounterId,'reachGoal','pageLoad', { pageLoadTime: pageLoadTime / 1000 });
-    });
-  </script>
+        addEventListener('DOMContentLoaded', (event) => {
+            const pageLoadTime = performance.timing.domContentLoadedEventStart - performance.timing.navigationStart;
+            ym(window.yandexMetricaCounterId, 'reachGoal', 'pageLoad', { pageLoadTime: pageLoadTime / 1000 });
+        });</script>
 </head>
 
 <body style="margin: 0px; overflow: hidden;" oncontextmenu="return false;">
@@ -47,9 +46,9 @@
   <script src="Build/skibidi_VK.loader.js"></script>
   <script>
     const settings = {
-      dataUrl: "Build/181a8591ff2c8ab72820cd3fd0b57bbe.data.unityweb",
+      dataUrl: "Build/490a4d0de49be92481283347307931a1.data.unityweb",
       frameworkUrl: "Build/5f67a84705cda218aceff66e386763ba.js.unityweb",
-      codeUrl: "Build/4a773c3bba8cf86ee60a1acad27623a4.wasm.unityweb",
+      codeUrl: "Build/759efb844167238b9aaa933e8f760607.wasm.unityweb",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "Agava",
       productName: "RagdollSwordBattle",
